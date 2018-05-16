@@ -1,0 +1,30 @@
+{
+  "runners_config": [
+    {
+      "name": "runner1",
+      "cuke_profile": "cuke_server_ts1",
+      "enable": true
+    },
+    {
+      "name": "runner2",
+      "cuke_profile": "cuke_server_ts2",
+      "enable": true
+    },
+    {
+      "name": "runner3",
+      "cuke_profile": "cuke_server_ts3",
+      "enable": true
+    }
+  ],
+  "results": [
+    {
+      "name": "runner1",
+      "test_result": false,
+      "last_run_time": "2016-02-26 11:20:18 +0530",
+      "running_now": false
+    }
+  ],
+  "run_cuke_flag": {
+    "run_time": "2016-02-26 11:07:18 +0530"
+  }
+}

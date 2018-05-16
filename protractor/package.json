@@ -1,0 +1,28 @@
+{
+  "name": "UITests",
+  "version": "0.0.1",
+  "description": "Protractor tests for demo",
+  "dependencies": {
+    "jasmine2-protractor-utils": "^1.2.8"
+  },
+  "devDependencies": {
+    "chromedriver": "2.25",
+    "jasmine-reporters": "^2.0.0",
+    "jasmine-spec-reporter": "^2.2.3",
+    "protractor": "^4.x.x",
+    "protractor-jasmine2-html-reporter": "0.0.5",
+    "request": "^2.60.0",
+    "selenium-server-standalone-jar": "2.53.1",
+    "slack-node": "^0.2.0",
+    "sync-request": "^2.0.1",
+    "xlsx": "^0.8.0"
+  },
+  "engine": {
+    "node": ">=4.x.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": ">= 0.2.0",
+  "author": ""
+}

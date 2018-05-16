@@ -1,0 +1,13 @@
+# List of profile you can pass when invoking Cucumber 
+# Ex : 
+#   $ cucumber --profile=phantomjs
+#
+# For Info : 
+#   VENZEE_BASE_URL refer to #{@base_url} in the env.rb file
+#   --require : xyz refer to the directory where to find the .rb file
+#   --color   : refer to the output in color in the command prompt
+#   features or features_v2 : Refer to the directory where to fin the .feature file
+
+
+default:          --require scenarios --color BROWSER_TYPE=chrome VENZEE_BASE_URL=http://google.com scenarios
+grinder:          --require scenarios --color --tags @filestack,@localize,@pubnub BROWSER_TYPE=chrome VENZEE_BASE_URL=http://google.com scenarios

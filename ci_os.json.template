@@ -1,0 +1,5 @@
+{
+  "version": "0.0.1",
+  "OS":"Linux" //OS can be Windows, Linux or Mac - respect the case !
+}
+

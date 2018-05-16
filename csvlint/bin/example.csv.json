@@ -1,0 +1,57 @@
+{
+  "title": "acme.csv",
+  "description": "Auto generated schema for acme.csv",
+  "fields": [
+    {
+      "name": "SKU",
+      "title": "",
+      "description": "",
+      "constraints": {
+        "required": true,
+        "unique"  : true
+      }
+    },
+    {
+      "name": "Name",
+      "title": "",
+      "description": "",
+      "constraints": {
+      }
+    },
+    {
+      "name": "Cost",
+      "title": "",
+      "description": "",
+      "constraints": {
+      }
+    },
+    {
+      "name": "Status",
+      "title": "",
+      "description": "",
+      "constraints": {
+      }
+    },
+    {
+      "name": "Inventory",
+      "title": "",
+      "description": "",
+      "constraints": {
+      }
+    },
+    {
+      "name": "Brand",
+      "title": "",
+      "description": "",
+      "constraints": {
+      }
+    },
+    {
+      "name": "Image",
+      "title": "",
+      "description": "",
+      "constraints": {
+      }
+    }
+  ]
+}

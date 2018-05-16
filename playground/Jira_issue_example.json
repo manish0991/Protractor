@@ -1,0 +1,176 @@
+Issue Key: VEN-4200
+[
+  {
+    "expand": "operations,editmeta,changelog,transitions,renderedFields",
+    "id": "16969",
+    "self": "https://venzeedev.atlassian.net/rest/api/2/issue/16969",
+    "key": "VEN-4200",
+    "fields": {
+      "issuetype": {
+        "self": "https://venzeedev.atlassian.net/rest/api/2/issuetype/4",
+        "id": "4",
+        "description": "An improvement or enhancement to an existing feature or task.",
+        "iconUrl": "https://venzeedev.atlassian.net/images/icons/issuetypes/improvement.png",
+        "name": "Improvement",
+        "subtask": false
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://venzeedev.atlassian.net/rest/api/2/project/10001",
+        "id": "10001",
+        "key": "VEN",
+        "name": "Venzee Core",
+        "avatarUrls": {
+          "48x48": "https://venzeedev.atlassian.net/secure/projectavatar?avatarId=10011",
+          "24x24": "https://venzeedev.atlassian.net/secure/projectavatar?size=small&avatarId=10011",
+          "16x16": "https://venzeedev.atlassian.net/secure/projectavatar?size=xsmall&avatarId=10011",
+          "32x32": "https://venzeedev.atlassian.net/secure/projectavatar?size=medium&avatarId=10011"
+        }
+      },
+      "fixVersions": [
+
+      ],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10500": null,
+      "customfield_10700": null,
+      "customfield_10701": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": null,
+      "watches": {
+        "self": "https://venzeedev.atlassian.net/rest/api/2/issue/VEN-4200/watchers",
+        "watchCount": 1,
+        "isWatching": false
+      },
+      "created": "2015-04-02T17:10:25.000-0600",
+      "customfield_10020": null,
+      "customfield_10021": "Not Started",
+      "priority": {
+        "self": "https://venzeedev.atlassian.net/rest/api/2/priority/4",
+        "iconUrl": "https://venzeedev.atlassian.net/images/icons/priorities/minor.png",
+        "name": "Could",
+        "id": "4"
+      },
+      "customfield_10100": null,
+      "labels": [
+
+      ],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": null,
+      "customfield_10019": null,
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [
+
+      ],
+      "issuelinks": [
+
+      ],
+      "assignee": {
+        "self": "https://venzeedev.atlassian.net/rest/api/2/user?username=ignacio",
+        "name": "ignacio",
+        "key": "ignacio",
+        "emailAddress": "creatividadya@gmail.com",
+        "avatarUrls": {
+          "48x48": "https://venzeedev.atlassian.net/secure/useravatar?ownerId=ignacio&avatarId=11300",
+          "24x24": "https://venzeedev.atlassian.net/secure/useravatar?size=small&ownerId=ignacio&avatarId=11300",
+          "16x16": "https://venzeedev.atlassian.net/secure/useravatar?size=xsmall&ownerId=ignacio&avatarId=11300",
+          "32x32": "https://venzeedev.atlassian.net/secure/useravatar?size=medium&ownerId=ignacio&avatarId=11300"
+        },
+        "displayName": "Ignacio Castro",
+        "active": true,
+        "timeZone": "America/Argentina/Cordoba"
+      },
+      "updated": "2015-04-02T17:10:25.000-0600",
+      "status": {
+        "self": "https://venzeedev.atlassian.net/rest/api/2/status/1",
+        "description": "The issue is open and ready for the assignee to start work on it.",
+        "iconUrl": "https://venzeedev.atlassian.net/images/icons/statuses/open.png",
+        "name": "Open",
+        "id": "1",
+        "statusCategory": {
+          "self": "https://venzeedev.atlassian.net/rest/api/2/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [
+
+      ],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10012": null,
+      "customfield_10013": null,
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10600": null,
+      "customfield_10006": "9223372036854775807",
+      "customfield_10007": [
+        "com.atlassian.greenhopper.service.sprint.Sprint@1275810[rapidViewId=2,state=FUTURE,name=S19 8-14 April,startDate=<null>,endDate=<null>,completeDate=<null>,sequence=69,id=72]"
+      ],
+      "customfield_10800": null,
+      "customfield_10008": null,
+      "customfield_10801": null,
+      "aggregatetimeestimate": null,
+      "summary": "Review the intercom loading logic",
+      "creator": {
+        "self": "https://venzeedev.atlassian.net/rest/api/2/user?username=ignacio",
+        "name": "ignacio",
+        "key": "ignacio",
+        "emailAddress": "creatividadya@gmail.com",
+        "avatarUrls": {
+          "48x48": "https://venzeedev.atlassian.net/secure/useravatar?ownerId=ignacio&avatarId=11300",
+          "24x24": "https://venzeedev.atlassian.net/secure/useravatar?size=small&ownerId=ignacio&avatarId=11300",
+          "16x16": "https://venzeedev.atlassian.net/secure/useravatar?size=xsmall&ownerId=ignacio&avatarId=11300",
+          "32x32": "https://venzeedev.atlassian.net/secure/useravatar?size=medium&ownerId=ignacio&avatarId=11300"
+        },
+        "displayName": "Ignacio Castro",
+        "active": true,
+        "timeZone": "America/Argentina/Cordoba"
+      },
+      "subtasks": [
+
+      ],
+      "reporter": {
+        "self": "https://venzeedev.atlassian.net/rest/api/2/user?username=ignacio",
+        "name": "ignacio",
+        "key": "ignacio",
+        "emailAddress": "creatividadya@gmail.com",
+        "avatarUrls": {
+          "48x48": "https://venzeedev.atlassian.net/secure/useravatar?ownerId=ignacio&avatarId=11300",
+          "24x24": "https://venzeedev.atlassian.net/secure/useravatar?size=small&ownerId=ignacio&avatarId=11300",
+          "16x16": "https://venzeedev.atlassian.net/secure/useravatar?size=xsmall&ownerId=ignacio&avatarId=11300",
+          "32x32": "https://venzeedev.atlassian.net/secure/useravatar?size=medium&ownerId=ignacio&avatarId=11300"
+        },
+        "displayName": "Ignacio Castro",
+        "active": true,
+        "timeZone": "America/Argentina/Cordoba"
+      },
+      "customfield_10000": null,
+      "aggregateprogress": {
+        "progress": 0,
+        "total": 0
+      },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10200": null,
+      "customfield_10003": null,
+      "customfield_10400": "0|i00msf:",
+      "environment": null,
+      "duedate": null,
+      "progress": {
+        "progress": 0,
+        "total": 0
+      },
+      "votes": {
+        "self": "https://venzeedev.atlassian.net/rest/api/2/issue/VEN-4200/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  }
+]

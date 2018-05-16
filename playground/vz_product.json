@@ -1,0 +1,81 @@
+[
+  {
+    "parentId": "id123",
+    "map": 2,
+    "cost": 13.99,
+    "id": "YYT3S5AHQ7",
+    "customFields": {
+      "logo": "MetallicA",
+      "color": "white"
+    },
+    "recordId": "id123wh",
+    "lastUpdated": "2015-05-14T21:17:45.809Z",
+    "name": "T-Shirt",
+    "images": {
+      "Metallica_-_Wikipedia_the_free_encyclopedia": {
+        "mimetype": "image/jpeg",
+        "thumbnail": {
+          "mimetype": "image/jpeg",
+          "filename": "metallica.jpg",
+          "isWriteable": false,
+          "url": "https://www.filepicker.io/api/file/GVHDHMNdQsiBaC0pcIuX",
+          "key": "b297vebQFqQYB2mEXJhw_metallica.jpg",
+          "size": 28997
+        },
+        "container": "venzee-product-images-qa",
+        "filename": "Metallica_-_Wikipedia_the_free_encyclopedia",
+        "isWriteable": true,
+        "url": "https://www.filepicker.io/api/file/gMqdSMESRsKVv49tUP4d",
+        "key": "Gr1UR4YTRKhycv3MCrfw_metallica.jpg",
+        "size": 1458999,
+        "metadata": {
+          "height": 1359,
+          "width": 1785
+        }
+      }
+    },
+    "videos": [
+
+    ],
+    "created": "2015-05-14T21:17:45.809Z",
+    "collectionId": "CLRTLO7MKQ"
+  },
+  {
+    "map": 2,
+    "cost": 13.99,
+    "id": "AHBU3E9J9X",
+    "currency": "USD",
+    "customFields": {
+      "logo": "MetallicA",
+      "color": "black"
+    },
+    "recordId": "id123",
+    "lastUpdated": "2015-05-14T21:13:55.287Z",
+    "name": "T-Shirt",
+    "images": null,
+    "videos": [
+
+    ],
+    "created": "2015-05-14T19:28:44.137Z",
+    "collectionId": "CLRTLO7MKQ"
+  },
+  {
+    "map": 2,
+    "cost": 99.98,
+    "id": "XT4SS3QQBA",
+    "currency": "USD",
+    "customFields": {
+      "color": "blue",
+      "size": "32"
+    },
+    "recordId": "id332",
+    "lastUpdated": "2015-05-14T21:13:55.287Z",
+    "name": "Jeans",
+    "images": null,
+    "videos": [
+
+    ],
+    "created": "2015-05-14T19:29:32.943Z",
+    "collectionId": "CLRTLO7MKQ"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "env":"qa",
+  "qa":{
+    "url":"https://qa-app.venzee.com/login",
+    "username":"susamprotractor@yopmail.com",
+    "password":"password1"
+
+  },
+  "dev":{
+      "url":"https://dev:4312@dev-app.venzee.com/login",
+      "username":"susamprotractor@yopmail.com",
+      "password":"password1"
+  },
+  "prod":{
+      "url":"https://www.venzee.com",
+      "username":"susamprotractor@yopmail.com",
+      "password":"password1"
+  },
+	  
+  "rsqa":{
+      "url":"https://qars:9087@rs-qa-app.venzee.com/login",
+      "username":"susamprotractor@yopmail.com",
+      "password":"password1"
+  },
+  
+  "default":{
+      "url":"https://guest1:4468@qa.venzee.com",
+      "username":"susamprotractor@yopmail.com",
+      "password":"password1"
+  }
+}

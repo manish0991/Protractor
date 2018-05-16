@@ -1,0 +1,11 @@
+SKU,Name,Cost,Status,Inventory,Brand,Image,Video
+DH-00001,Mini 1226,1199.97,Back Order,5,Car,DH-00001.jpg,www.youtube.com
+DH-00002,Mini 1227,1200.97,Back Order,0,Computer,DH-00002.jpg,www.youtube.com
+DH-00003,Mini 1228,1201.97,Back Order,12,Phone,DH-00003.jpg,www.youtube.com
+DH-00004,Mini 1229,1202.97,Back Order,0,Computer,DH-00004.jpg,www.youtube.com
+DH-00005,Mini 1230,1203.97,Back Order,2,,DH-00005.jpg,www.youtube.com
+DH-00006,Mini 1231,1204.97,Back Order,7,Car,DH-00006.jpg,www.youtube.com
+DH-00007,Mini 1232,1205.97,Back Order,80,,DH-00007.jpg,www.youtube.com
+DH-00008,Mini 1233,1999.99,Available,3,Computer,DH-00008.jpg,www.youtube.com
+DH-00009,Mini 1234,79.99,Available,100,Computer,DH-00009.jpg,www.youtube.com
+DH-00010,Mini 1235,399.99,Discontinued,0,Phone,DH-00010.jpg,www.youtube.com

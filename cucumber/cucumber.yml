@@ -1,0 +1,38 @@
+# List of profile you can pass when invoking Cucumber 
+# Ex : 
+#   $ cucumber --profile=phantomjs
+#
+# For Info : 
+#   VENZEE_BASE_URL refer to #{@base_url} in the env.rb file
+#   --require : xyz refer to the directory where to find the .rb file
+#   --color   : refer to the output in color in the command prompt
+#   features or features_v2 : Refer to the directory where to fin the .feature file
+filestack:           --require features_v2 --color BROWSER_TYPE=chrome VENZEE_BASE_URL=https://dev.filestack.com/login/ features_v2
+
+default:          --require features_v2 --color BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+
+dev:              --require features_v2 --color BROWSER_TYPE=chrome VENZEE_BASE_URL=https://dev:8890@dev.venzee.com features_v2
+sand:				      --require features_v2 --color BROWSER_TYPE=chrome VENZEE_BASE_URL=https://sandbox.venzee.com features_v2
+qa:               --require features_v2 --color BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+
+qa_ff:         		--require features_v2 --color BROWSER_TYPE=firefox VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+dev_ff:				    --require features_v2 --color BROWSER_TYPE=firefox VENZEE_BASE_URL=https://dev:8890@dev.venzee.com features_v2
+#sand_ff:			    --require features_v2 --color BROWSER_TYPE=firefox VENZEE_BASE_URL=https://sandbox.venzee.com features_v2     
+#sand_ts1: 			    --require features_v2 --color --tags @billing,@templates,@integrations --tags @smoke_test BROWSER_TYPE=chrome VENZEE_BASE_URL=https://sandbox.venzee.com features_v2    
+qa_ts1: 			    --require features_v2 --color --tags @billing,@templates,@integrations --tags @smoke_test BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+qa_ts2: 			    --require features_v2 --color --tags @notification,@product,@export_product --tags @smoke_test BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+qa_ts3: 			    --require features_v2 --color --tags @partner_management,@profile_setting,@company_setting,@invite_user --tags @smoke_test BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+qa_ts4: 			    --require features_v2 --color --tags @transformations --tags @smoke_test BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+qa_ff_ts1: 			  --require features_v2 --color --tags @billing,@templates,@integrations --tags @smoke_test BROWSER_TYPE=firefox VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+qa_ff_ts2: 			  --require features_v2 --color --tags @notification,@product,@export_product --tags @smoke_test BROWSER_TYPE=firefox VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+qa_ff_ts3: 			  --require features_v2 --color --tags @partner_management,@profile_setting,@company_setting --tags @smoke_test BROWSER_TYPE=firefox VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+
+cuke_server:	  	--require features_v2 --no-color --tags @smoke_test BROWSER_TYPE=chrome VENZEE_BASE_URL=https://dev:8890@dev.venzee.com features_v2
+cuke_server_ts1: 	--require features_v2 --no-color --tags @billing,@templates,@integrations --tags @smoke_test BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+cuke_server_ts2: 	--require features_v2 --no-color --tags @product,@export_product --tags @smoke_test BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+cuke_server_ts3:  --require features_v2 --no-color --tags @profile_setting,@company_setting,@notification --tags @smoke_test BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+
+saucelabs_server: --require features_v2 --color BROWSER_TYPE=saucelabs VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+phantomjs:        --require features_v2 --color BROWSER_TYPE=phantomjs VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
+
+test_profile: 		--require features_v2 --no-color --tags @qa BROWSER_TYPE=chrome VENZEE_BASE_URL=https://guest1:4468@qa.venzee.com features_v2
